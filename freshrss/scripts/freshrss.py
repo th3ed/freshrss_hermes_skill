@@ -18,7 +18,7 @@ from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 SKILL_DIR = SCRIPT_DIR.parent
-CACHE_DIR = SKILL_DIR / ".cache"
+CACHE_DIR = Path("/tmp/freshrss_cache")
 
 
 def get_env(name):
